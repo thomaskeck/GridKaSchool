@@ -1,0 +1,12 @@
+numpy
+IPython
+matplotlib
+scipy
+pandas
+sympy
+WordCloud
+numexpr
+numba
+Cython
+theano
+scikit-learn
