@@ -1,0 +1,18 @@
+apt-get install python3-pip python3-virtualenv
+apt-get install libfreetype6-dev libpng12-dev pkg-config
+apt-get install llvm libedit-dev
+apt-get install git
+su gks
+cd
+python3 -m virtualenv -p python3 venv
+source venv/bin/activate
+pip3 install -U pip3 setuptools
+pip3 install numpy
+pip3 install widgetsnbextension
+pip3 install jupyter ipython matplotlib pandas scipy scikit-learn sympy
+pip3 install Cython tensorflow
+pip3 install llvmlite==0.5.0
+pip3 install numba
+pip3 install xgboost
+pip3 install WordCloud numexpr theano 
+git clone https://gitlab.ekp.kit.edu/tkeck/GridKaSchool.git
