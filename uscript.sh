@@ -17,8 +17,8 @@ pip3 install tensorflow==1.3.0
 pip3 install xgboost==0.6a2
 pip3 install theano==0.10.0b1
 pip3 install Cython==0.26
-pip3 install llvmlite==0.5.0
-pip3 install numba==0.34.0
+#pip3 install llvmlite==0.5.0
+#pip3 install numba==0.34.0
 pip3 install numexpr==2.6.2
 pip3 install WordCloud==1.3.1
 
